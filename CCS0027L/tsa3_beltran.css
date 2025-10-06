@@ -13,7 +13,6 @@
 }
 
 
-
 header {
 
     background: linear-gradient(135deg, #b689f9, #7e57c2);
@@ -31,7 +30,6 @@ header {
 }
 
 
-
 main {
 
     padding: 20px;
@@ -39,13 +37,11 @@ main {
 }
 
 
-
 h2 {
 
     color: #6a0dad;
 
 }
-
 
 
 .intro {
@@ -57,7 +53,6 @@ h2 {
 }
 
 
-
 .hobby {
 
     font-family: "Georgia";
@@ -65,7 +60,6 @@ h2 {
     color: #6b5d8c;
 
 }
-
 
 
 ul {
@@ -83,7 +77,6 @@ ul {
     box-shadow: 0 0 8px rgba(169, 123, 255, 0.2);
 
 }
-
 
 
 .photo img {
@@ -105,7 +98,6 @@ ul {
 }
 
 
-
 footer {
 
     background-color: #6a0dad;
@@ -119,7 +111,6 @@ footer {
     padding: 12px;
 
 }
-
 
 
 section {
