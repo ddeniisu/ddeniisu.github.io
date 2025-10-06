@@ -1,0 +1,42 @@
+  {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+
+body {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: stretch;
+
+  min-height: 100vh;
+
+  background-color: #f6f1fa;
+
+}
+
+.container {
+
+  display: grid;
+
+  grid-template-rows: auto 1fr auto;
+
+  width: 90%;
+
+  max-width: 900px;
+
+  background-color: #fff;
+
+  border-radius: 10px;
+
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+
+}
