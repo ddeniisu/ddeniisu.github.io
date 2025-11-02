@@ -3,50 +3,63 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>cute sign up form ✿</title>
+<title>student sign up form</title>
 <style>
-body{
-font-family: "poppins", sans-serif;
-background-color: #ffeef5;
-color:#444;
-display:flex;
-justify-content:center;
-padding:40px;
+body {
+font-family: "Poppins", sans-serif;
+background-color: #ede7f6;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+color: #333;
 }
-.box{
-background:white;
-width:350px;
-padding:20px;
-border-radius:15px;
-box-shadow:0 4px 8px rgba(0,0,0,0.1);
+.box {
+background: #fff;
+width: 480px;
+padding: 35px;
+border-radius: 12px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
-input,select,button{
-width:100%;
-padding:8px;
-margin:6px 0;
-border:1px solid #ddd;
-border-radius:6px;
+h2 {
+text-align: center;
+color: #5e35b1;
+margin-bottom: 20px;
 }
-button{
-background-color:#ffb3c6;
-border:none;
-color:white;
-cursor:pointer;
+input, select, button {
+width: 100%;
+padding: 10px;
+margin: 8px 0;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 15px;
 }
-button:hover{
-background-color:#ff9fb8;
+button {
+background-color: #7e57c2;
+color: #fff;
+border: none;
+cursor: pointer;
 }
-.card{
-background-color:#fff0f5;
-padding:10px;
-border-radius:10px;
-margin-top:10px;
+button:hover {
+background-color: #5e35b1;
+}
+.card {
+background-color: #f3e5f5;
+padding: 12px;
+border-radius: 8px;
+margin-top: 12px;
+}
+#msg {
+text-align: center;
+color: #4527a0;
+margin-top: 12px;
 }
 </style>
 </head>
 <body>
 <div class="box">
-<h2>✿ student sign up ✿</h2>
+<h2>student sign up</h2>
 <form id="form">
 <input type="text" id="idnum" placeholder="id number" required>
 <input type="text" id="fname" placeholder="first name" required>
@@ -59,13 +72,11 @@ margin-top:10px;
 <option>other</option>
 </select>
 <input type="date" id="bday" required>
-<button type="button" id="save">save ♡</button>
+<button type="button" id="save">save</button>
 </form>
-
 <h3 id="msg"></h3>
 <div id="display"></div>
 </div>
-
 <script src="script.js"></script>
 </body>
 </html>
