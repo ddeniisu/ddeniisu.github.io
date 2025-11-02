@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>cute sign up form ✿</title>
+<style>
+body{
+font-family: "poppins", sans-serif;
+background-color: #ffeef5;
+color:#444;
+display:flex;
+justify-content:center;
+padding:40px;
+}
+.box{
+background:white;
+width:350px;
+padding:20px;
+border-radius:15px;
+box-shadow:0 4px 8px rgba(0,0,0,0.1);
+}
+input,select,button{
+width:100%;
+padding:8px;
+margin:6px 0;
+border:1px solid #ddd;
+border-radius:6px;
+}
+button{
+background-color:#ffb3c6;
+border:none;
+color:white;
+cursor:pointer;
+}
+button:hover{
+background-color:#ff9fb8;
+}
+.card{
+background-color:#fff0f5;
+padding:10px;
+border-radius:10px;
+margin-top:10px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<h2>✿ student sign up ✿</h2>
+<form id="form">
+<input type="text" id="idnum" placeholder="id number" required>
+<input type="text" id="fname" placeholder="first name" required>
+<input type="text" id="mname" placeholder="middle name">
+<input type="text" id="lname" placeholder="last name" required>
+<select id="gender" required>
+<option value="">select gender</option>
+<option>female</option>
+<option>male</option>
+<option>other</option>
+</select>
+<input type="date" id="bday" required>
+<button type="button" id="save">save ♡</button>
+</form>
+
+<h3 id="msg"></h3>
+<div id="display"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
